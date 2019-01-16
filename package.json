@@ -1,11 +1,26 @@
 {
-  "name": "tutorials",
+  "name": "node-tutorials",
   "version": "1.0.0",
   "description": "Learn node.js",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "Mehdi",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yogi721/node-tutorials.git"
+  },
+  "keywords": [
+    "node.js"
+  ],
+  "bugs": {
+    "url": "https://github.com/yogi721/node-tutorials/issues"
+  },
+  "homepage": "https://github.com/yogi721/node-tutorials#readme",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.4"
+  }
 }
