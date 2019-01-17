@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+        <link href="/assets/styles.css" rel="stylesheet" type="text/css" media="screen">
+        <link href="/assets/form.css" rel="stylesheet" type="text/css" media="screen">
+    </head>
+    <body>
+            <% include partials/nav.ejs %>
+        <h1>Contact Us!</h1>
+        <p>Contact the collest cats on the web right here...</p>
+        
+        
+        <form id="contact-form">
+            <label for="who">Who do you want to contact?</label>
+            <input type="text" name="who" value="<%= qs.person %>">
+            <label for="department">Which department?</label>
+            <input type="text" name="department" value="<%= qs.dept %>">
+            <label for="email">Your email</label>
+            <input type="email" name="email" />
+            <input type="submit" name="submit" />
+        </form>
+    </body>
+</html>
